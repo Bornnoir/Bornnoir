@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Abdul Azeez — Bornnoir</title>
+<desc id="desc">A dark monochrome banner with an abstract raven-inspired wing mark and the words Abdul Azeez, Bornnoir.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080a0e"/>
+    <stop offset=".55" stop-color="#11151c"/>
+    <stop offset="1" stop-color="#050608"/>
+  </linearGradient>
+  <linearGradient id="feather" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f1f3f5" stop-opacity=".92"/>
+    <stop offset="1" stop-color="#737b86" stop-opacity=".22"/>
+  </linearGradient>
+  <radialGradient id="glow">
+    <stop offset="0" stop-color="#aeb7c4" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#aeb7c4" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+    <path d="M38 0H0V38" fill="none" stroke="#c8d0dc" stroke-opacity=".045" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+<ellipse cx="930" cy="160" rx="360" ry="260" fill="url(#glow)"/>
+<path d="M740 272C835 194 886 121 1000 70C948 137 913 181 875 226C963 194 1030 150 1110 106C1044 184 979 245 873 292C826 312 777 305 740 272Z" fill="none" stroke="#dce2ea" stroke-opacity=".18" stroke-width="2"/>
+<g transform="translate(845 74)" fill="url(#feather)" opacity=".85">
+  <path d="M10 164C64 120 105 69 166 8C149 69 120 115 74 154C125 143 171 119 226 78C190 140 129 183 61 191C39 194 20 183 10 164Z"/>
+  <path d="M46 176C100 154 150 127 211 91C167 150 111 188 51 203Z" fill="#aeb7c4" opacity=".38"/>
+  <path d="M72 158C113 126 143 92 174 55" fill="none" stroke="#f4f6f8" stroke-opacity=".38" stroke-width="2"/>
+</g>
+<g fill="#f4f6f8" font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="82" y="142" font-size="18" letter-spacing="7" fill="#aeb7c4">SOFTWARE ENGINEERING • BACKEND • APPLIED AI</text>
+  <text x="78" y="220" font-size="64" font-weight="700" letter-spacing="1">ABDUL AZEEZ</text>
+  <text x="84" y="264" font-size="19" letter-spacing="8" fill="#aeb7c4">B O R N N O I R</text>
+</g>
+<path d="M84 292H420" stroke="#cbd3de" stroke-opacity=".35"/>
+<circle cx="84" cy="292" r="3" fill="#e6ebf1"/>
+<text x="84" y="326" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="3" fill="#788391">BUILD WITH INTENT. UNDERSTAND THE SYSTEM.</text>
+</svg>
